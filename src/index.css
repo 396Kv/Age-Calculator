@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #e4ecff;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.age_heading{
+    color: #5E5AF9;
+    font-family: Inter;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+  color:  #000;
+  font-family: Inter;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 5rem;
+}
+h3 {
+  color:  #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+h4 {
+  color:  #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.right {
+  width: 500px;
+}
+
+.para  {
+  color:  #505050;
+  font-family: Inter;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.button_div{
+  margin-top: 2rem;
+}
+.container_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input[type="date"] {
+  background: #f4f9ff;
+  border: 2px solid #dedede;
+  padding: 20px;
+  font-family: "Roboto Mono", monospace;
+  color: #000000;
+  font-size: 18px;
+  width: 230px;
+  outline: none;
+  border-radius: 6px;
+}
+::-webkit-calendar-picker-indicator{
+  /* background-color: #fff; */
+  padding-top: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.button-12{
+  /* display: flex; */
+  margin: 16px;
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #a5c5f0;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: none;
+  box-sizing: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 14px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-12:hover {
+  background-color:  #6998d4;
+  box-shadow: rgba(0, 0, 0, .05);
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-12:hover:after {
+   opacity: .5;
+}
+.button-12:active {
+  box-shadow: rgba(0, 0, 0, .1);
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+.button-12:active:after{
+  opacity: 1;
+}
+@media (min-width: 768px) {
+      .button-12 {
+        padding: 14px 12px;
+        width: 176px;
+      }
+}
+  
